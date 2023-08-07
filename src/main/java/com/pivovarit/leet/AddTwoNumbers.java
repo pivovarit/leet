@@ -79,7 +79,7 @@ class AddTwoNumbers {
         return list.get(0);
     }
 
-    static class ListNode<T> {
+    private static class ListNode<T> {
         private final T value;
         private ListNode<T> next;
 
